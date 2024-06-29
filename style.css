@@ -1,0 +1,89 @@
+header{
+    width: 1000px;
+    height: 450px;
+    background-image:url("img_picture.png") ;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding:20px;
+   
+} 
+.button{
+    margin: 1px 50px 1px 450px;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    background-color:green;
+   
+}
+.button1{
+    margin: 10px 20px 10px 75px;
+    box-sizing: content-box;
+    background-color: green;
+    padding: 10px 20px;
+}
+.map{
+    position: absolute;
+    
+    right:30px;
+    margin:  10px;
+    width:150px;
+    height: 350px;
+    box-sizing: content-box;
+    border: 3px solid green;
+}
+.para{
+    width: 750px;
+    padding:10px 10px 20px 30px ;
+    text-align-last:center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin:0 auto;
+    text-decoration: underline;
+    text-decoration-color: green;
+    padding: 1px 10px 20px 30px;
+
+} 
+
+
+ #heading{
+    text-align: end;
+ }   
+   
+h2{
+    padding: 30px;
+   text-decoration: underline;
+   text-decoration-color: green;
+   text-decoration-thickness: 3px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+#main-heading{
+    color: rebeccapurple;
+    text-align: center;
+}
+.form{
+    margin: 2px 200px 2px 400px;
+    box-sizing: content-box;
+    border: 2px solid whitesmoke;
+    height: 300px;
+    width: 250px;
+    box-shadow: 5px 8px 5px 8px whitesmoke;
+    padding: 10px 10px;
+}
+ .nav-link{
+    display:flex;
+    gap: 15px;
+} 
+
+.nav-link a{
+    text-decoration: none;
+    color:black;
+    border: 3px solid green;
+}
